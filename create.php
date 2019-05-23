@@ -10,10 +10,10 @@ echo "Auto Create Spotify Account\n";
 echo "     By : Gidhan B.A\n";
 echo " Recode By : Christian A.M\n";
 echo "===========================\n";
+echo "Email Yang Mau Dipakai :"; $pakai = trim(fgets(STDIN)); 
 while (1) 
 {
 	for ($i=0; $i <= 999 ; $i++) {
-		$pakai = trim(fgets(STDIN));
 		$mail = $pakai.$i."@getnada.com"; 
 		$send = curl('https://spclient.wg.spotify.com:443/signup/public/v1/account/', 'iagree=true&birth_day=12&platform=Android-ARM&creation_point=client_mobile&password=12345678&key=142b583129b2df829de3656f9eb484e6&birth_year=2000&email='.$mail.'&gender=male&app_version=849800892&birth_month=12&password_repeat=12345678', $headers);
 		$data = json_decode($send[0]);
