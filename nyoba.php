@@ -26,7 +26,7 @@ while (1)
 			fwrite($handle, $mail."<br>");
 			fclose($handle);
 		} else {
-			die(echo $data->errors->email."\n");
+			die
 		}
 	}
 }
