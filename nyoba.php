@@ -26,7 +26,7 @@ while (1)
 			fwrite($handle, $mail."<br>");
 			fclose($handle);
 		} else {
-			die("\nPay Manual Ya Gan");
+			die("\n\nPay Manual Ya Gan\n");
 		}
 	}
 }
