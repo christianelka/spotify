@@ -26,7 +26,7 @@ while (1)
 			fwrite($handle, $mail."<br>");
 			fclose($handle);
 		} else {
-			die
+			die("Email has already been taken");
 		}
 	}
 }
