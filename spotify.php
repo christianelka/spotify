@@ -1,6 +1,3 @@
-Ghostbin will be shutting down in May 2019.
-Until then, all newly-created pastes will expire in 48 hours.
-If you'd like an archive of your pastes, go here.
 <?php
 error_reporting(0);
 $headers = array();
@@ -80,5 +77,3 @@ function curl($url, $fields = null, $headers = null)
             $httpcode
         );
  }
-Width: 1366
-?>
