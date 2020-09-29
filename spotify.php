@@ -8,6 +8,7 @@ $headers[] = 'Connection: Keep-Alive';
 echo "===========================\n";
 echo "Auto Create Spotify Account\n";
 echo "     By : Gidhan B.A\n";
+echo "      Recode : Christo  ";
 echo "===========================\n";
 echo "";
 echo "Email Yang Mau Dipakai : "; $pakai = trim(fgets(STDIN)); 
