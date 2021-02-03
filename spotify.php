@@ -7,8 +7,8 @@ $headers[] = 'Connection: Keep-Alive';
 // CURL Register Spotify
 echo "===========================\n";
 echo "Auto Create Spotify Account\n";
-echo "     By : Gidhan B.A\n";
-echo "     Recode : Christo\n";
+echo "     By : Gidhan B\n";
+echo "    Recode : Christo\n";
 echo "===========================\n";
 echo "";
 echo "Email Yang Mau Dipakai : "; $pakai = trim(fgets(STDIN)); 
